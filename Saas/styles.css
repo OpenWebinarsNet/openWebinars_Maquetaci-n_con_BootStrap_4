@@ -1,0 +1,151 @@
+.contenedor, .contenedor-con-altura {
+  width: 1024px;
+}
+
+h1, h2, h3, p {
+  color: #AAAAAA;
+}
+
+.contenedor-con-altura {
+  height: 512px;
+}
+
+ul {
+  font-size: 1.2rem;
+  color: red;
+}
+ul ul {
+  font-size: 0.7rem;
+  color: green;
+}
+ul ul ul {
+  font-size: 0.5rem;
+  color: blue;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+a:hover {
+  color: green;
+  text-decoration: underline;
+}
+a:focus {
+  color: red;
+  text-decoration: none;
+}
+
+.mitad {
+  width: 512px px;
+}
+
+.cuarto {
+  width: 256px px;
+}
+
+.octavo {
+  width: 256px px;
+}
+
+.decimo {
+  width: 102.4px;
+}
+
+.box {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.col-2 {
+  width: "50%";
+}
+
+.col-3 {
+  width: "33.3333333333%";
+}
+
+.col-4 {
+  width: "25%";
+}
+
+.col-5 {
+  width: "20%";
+}
+
+.col-6 {
+  width: "16.6666666667%";
+}
+
+.col-7 {
+  width: "14.2857142857%";
+}
+
+.col-8 {
+  width: "12.5%";
+}
+
+.col-9 {
+  width: "11.1111111111%";
+}
+
+.col-10 {
+  width: "10%";
+}
+
+.col-11 {
+  width: "9.0909090909%";
+}
+
+.col-12 {
+  width: "8.3333333333%";
+}
+
+.col-while-2 {
+  width: "50%";
+}
+
+.col-while-3 {
+  width: "33.3333333333%";
+}
+
+.col-while-4 {
+  width: "25%";
+}
+
+.col-while-5 {
+  width: "20%";
+}
+
+.col-while-6 {
+  width: "16.6666666667%";
+}
+
+.col-while-7 {
+  width: "14.2857142857%";
+}
+
+.col-while-8 {
+  width: "12.5%";
+}
+
+.col-while-9 {
+  width: "11.1111111111%";
+}
+
+.col-while-10 {
+  width: "10%";
+}
+
+.col-while-11 {
+  width: "9.0909090909%";
+}
+
+.col-while-12 {
+  width: "8.3333333333%";
+}
+
+/*# sourceMappingURL=styles.css.map */

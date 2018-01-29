@@ -1,0 +1,93 @@
+
+
+$ancho : 1024px;
+$color-letra: #AAAAAA;
+$altura: 512px;
+
+.contenedor {
+  width: $ancho;
+}
+
+h1,h2,h3,p {
+  color: $color-letra;
+}
+
+.contenedor-con-altura {
+  @extend .contenedor;
+  height: $altura;
+}
+
+ul {
+  font-size: 1.2rem;
+  color: red;
+    ul {
+      font-size: 0.7rem;
+      color:green;
+      ul {
+        font-size: 0.5rem;
+        color: blue;
+      }
+    }
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+  font-size: 1.2rem;
+
+  &:hover {
+    color: green;
+    text-decoration: underline;
+  };
+  &:focus {
+    color: red;
+    text-decoration: none;
+  }
+}
+
+.mitad {
+  width: ($ancho/2)px;
+}
+
+.cuarto {
+  width: ($ancho/4)px;
+}
+
+.octavo {
+  width: ($ancho/4)px;
+}
+
+
+@function partir($tam,$num_partes) {
+  @return ($tam/$num_partes);
+}
+
+.decimo {
+  width: partir($ancho,10);
+}
+
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+.box { @include border-radius(5px); }
+
+
+@for $p from 2 through 12 {
+  .col-#{$p} {
+    width: 100/$p+"%";
+  }
+}
+
+$p : 2;
+
+@while $p <=12 {
+  .col-while-#{$p} {
+    width: 100/$p+"%";
+  }
+  $p:$p+1;
+}

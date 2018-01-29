@@ -1,0 +1,22 @@
+.row > div {
+  height: 100px;
+}
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.black {
+  background-color: black;
+}
+
+.green {
+  background-color: green;
+}

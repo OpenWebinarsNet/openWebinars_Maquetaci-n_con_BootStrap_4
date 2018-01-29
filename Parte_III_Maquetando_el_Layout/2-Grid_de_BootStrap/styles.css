@@ -1,0 +1,11 @@
+div.container div div {
+  height: 600px;
+}
+
+div.red {
+  background-color: #b75c5c;
+}
+
+div.blue {
+  background-color: blue;
+}

@@ -1,0 +1,10 @@
+.row:first-child .col {
+  background-color: #DDDDDD;
+  border-radius: 10px;
+}
+
+.icon {
+  height: 64px;
+  margin: 15px;
+  width: 64px;
+}
